@@ -30,7 +30,7 @@
 	
 	// Dados da carta 2
     
-    printf("Digite os dados da carta 2: \n" );
+    printf("Digite os dados da carta 2: \n" ); 
 	printf("Estado (letra de A a H): " );
 	scanf("%c", &estado2);
 	printf("Codigo da carta: ");
