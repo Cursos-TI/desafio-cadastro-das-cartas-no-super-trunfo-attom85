@@ -13,10 +13,11 @@
 	//Dados carta 1
     
     printf("Digite os dados da carta 1: \n" );
-	printf("Estado (letra de A a H): " );
-	scanf("%c", &estado1);
+    printf("\n"); 
+	printf("Estado (letra de A a H):  " );
+	scanf(" %c", &estado1);
 	printf("Codigo da carta : ");
-	scanf("%s", codigoCarta1);
+	scanf(" %s", codigoCarta1);
 	printf("Nome da Cidade: ");
 	scanf("%s", nomeCidade1);
 	printf("População: ");
@@ -27,14 +28,17 @@
 	scanf("%f", &pib1);
 	printf("Pontos Turísticos: ");
 	scanf("%d", &pontosTuristicos1);
-	
+	printf("\n"); 
+
 	// Dados da carta 2
-    
-    printf("Digite os dados da carta 2: \n" ); 
-	printf("Estado (letra de A a H): " );
-	scanf("%c", &estado2);
+
+    printf("\n"); 
+    printf("Digite os dados da carta 2: \n" );
+    printf("\n");  
+	printf("Estado (letra de A a H):  " );
+	scanf(" %c", &estado2);
 	printf("Codigo da carta: ");
-	scanf("%s", codigoCarta2);
+	scanf(" %s", codigoCarta2);
 	printf("Nome da Cidade: ");
 	scanf("%s", nomeCidade2);
 	printf("População: ");
@@ -45,9 +49,11 @@
 	scanf("%f", &pib2);
 	printf("Pontos Turísticos: ");
 	scanf("%d", &pontosTuristicos2);
-	
+    printf("\n"); 
+    
 	// Impressão dados da carta 1
-	
+
+	printf("\n"); 
 	printf(" Dados da carta 1: \n");
 	printf("Estado: %c \n", estado1);
 	printf("Código da Carta: %s \n", codigoCarta1);
@@ -56,9 +62,11 @@
 	printf("Área: %f km² \n", area1);
 	printf("PIB: %f \n", pib1);
 	printf("Pontos Turísticos: %d \n", pontosTuristicos1);
+    printf("\n"); 
 	
 	// Impressão dados da carta 2
-	
+
+	printf("\n"); 
 	printf(" Dados da carta 2: \n");
 	printf("Estado: %c \n", estado2);
 	printf("Código da Carta: %s \n", codigoCarta2);
@@ -71,4 +79,4 @@
 	return 0;
    
     
-}    
+}  
